@@ -1,5 +1,5 @@
 # Wordle
-## Türkçe Kelime Oyunu
+## Turkish Puzzle Game
 
 ---
  <p>The Turkish version of the popular word puzzle game "Wordle"</p>

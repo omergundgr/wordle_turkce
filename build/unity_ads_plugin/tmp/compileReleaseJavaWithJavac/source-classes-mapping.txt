@@ -1,0 +1,22 @@
+com/rebeloid/unity_ads/banner/BannerAdListener.java
+ com.rebeloid.unity_ads.banner.BannerAdListener
+ com.rebeloid.unity_ads.banner.BannerAdListener$1
+com/rebeloid/unity_ads/UnityAdsLoadListener.java
+ com.rebeloid.unity_ads.UnityAdsLoadListener
+ com.rebeloid.unity_ads.UnityAdsLoadListener$1
+com/rebeloid/unity_ads/BuildConfig.java
+ com.rebeloid.unity_ads.BuildConfig
+com/rebeloid/unity_ads/banner/BannerAdFactory.java
+ com.rebeloid.unity_ads.banner.BannerAdFactory
+com/rebeloid/unity_ads/banner/BannerAdView.java
+ com.rebeloid.unity_ads.banner.BannerAdView
+com/rebeloid/unity_ads/UnityAdsInitializationListener.java
+ com.rebeloid.unity_ads.UnityAdsInitializationListener
+ com.rebeloid.unity_ads.UnityAdsInitializationListener$1
+com/rebeloid/unity_ads/UnityAdsPlugin.java
+ com.rebeloid.unity_ads.UnityAdsPlugin
+com/rebeloid/unity_ads/UnityAdsShowListener.java
+ com.rebeloid.unity_ads.UnityAdsShowListener
+ com.rebeloid.unity_ads.UnityAdsShowListener$1
+com/rebeloid/unity_ads/UnityAdsConstants.java
+ com.rebeloid.unity_ads.UnityAdsConstants

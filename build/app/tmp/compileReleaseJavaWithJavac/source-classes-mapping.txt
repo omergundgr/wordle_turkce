@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/ruwis/wordle_turkce/BuildConfig.java
+ com.ruwis.wordle_turkce.BuildConfig

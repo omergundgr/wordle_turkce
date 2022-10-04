@@ -1,0 +1,4 @@
+#Fri Jan 28 04:38:30 TRT 2022
+base.0=C\:\\Users\\w10\\Documents\\Flutter\\wordle_turkce\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

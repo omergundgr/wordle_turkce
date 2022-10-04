@@ -1,0 +1,4 @@
+#Fri Jan 28 04:23:54 TRT 2022
+base.0=C\:\\Users\\w10\\Documents\\Flutter\\wordle_turkce\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ruwis.wordle_turkce"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:9:5-79
+12-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:9:22-76
+13
+14    <application
+15        android:name="android.app.Application"
+15-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:6:9-42
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.6.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\5f663b08eec19eef9a9d1af662d9025e\core-1.6.0\AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:7:9-43
+18        android:label="Wordle Türkçe" >
+18-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:5:9-38
+19        <activity
+19-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:8:9-28:20
+20            android:name="com.ruwis.wordle_turkce.MainActivity"
+20-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:9:13-41
+21            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+21-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:13:13-163
+22            android:exported="true"
+22-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:10:13-36
+23            android:hardwareAccelerated="true"
+23-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:14:13-47
+24            android:launchMode="singleTop"
+24-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:11:13-43
+25            android:theme="@style/LaunchTheme"
+25-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:12:13-47
+26            android:windowSoftInputMode="adjustResize" >
+26-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:15:13-55
+27
+28            <!--
+29                 Specifies an Android theme to apply to this Activity as soon as
+30                 the Android process has started. This theme is visible to the user
+31                 while the Flutter UI initializes. After that, this theme continues
+32                 to determine the Window background behind the Flutter UI.
+33            -->
+34            <meta-data
+34-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:20:13-23:17
+35                android:name="io.flutter.embedding.android.NormalTheme"
+35-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:21:15-70
+36                android:resource="@style/NormalTheme" />
+36-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:22:15-52
+37
+38            <intent-filter>
+38-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:24:13-27:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:25:17-68
+39-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:25:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:26:17-76
+41-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:26:27-74
+42            </intent-filter>
+43        </activity>
+44        <!--
+45             Don't delete the meta-data below.
+46             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+47        -->
+48        <meta-data
+48-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:31:9-33:33
+49            android:name="flutterEmbedding"
+49-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:32:13-44
+50            android:value="2" />
+50-->C:\Users\w10\Documents\Flutter\wordle_turkce\android\app\src\main\AndroidManifest.xml:33:13-30
+51
+52        <activity
+52-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:13:9-17:74
+53            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+53-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:14:13-74
+54            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+54-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:15:13-170
+55            android:hardwareAccelerated="true"
+55-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:16:13-47
+56            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+56-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:17:13-71
+57        <activity
+57-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:18:9-22:86
+58            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+58-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:19:13-85
+59            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+59-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:20:13-170
+60            android:hardwareAccelerated="true"
+60-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:21:13-47
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+61-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:22:13-83
+62        <activity
+62-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:23:9-27:86
+63            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+63-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:24:13-93
+64            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+64-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:25:13-170
+65            android:hardwareAccelerated="false"
+65-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:26:13-48
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+66-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:27:13-83
+67        <activity
+67-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:28:9-32:74
+68            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+68-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:29:13-82
+69            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+69-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:30:13-170
+70            android:hardwareAccelerated="false"
+70-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:31:13-48
+71            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+71-->[com.unity3d.ads:unity-ads:4.0.0] C:\Users\w10\.gradle\caches\transforms-2\files-2.1\ad28501066c00d6c809839a2790c0899\jetified-unity-ads-4.0.0\AndroidManifest.xml:32:13-71
+72    </application>
+73
+74</manifest>
